@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="181.114" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="JPetStore Cart Functionality" name="verify that adding removing items and updating cart" time="180.916">
+<system-out><![CDATA[
+Given The user is on the JPetStore SignInpage...............................passed
+When The user signs in with username and password...........................passed
+And The user clicks on the cart image.......................................passed
+Then The user should be redirected to the view cart page....................passed
+And The cart page display Your cart is empty message when there is no items in cart.passed
+When The user clicks on Fish................................................passed
+Then The user should redirected to the fish category page...................passed
+When The user clicks on product id..........................................passed
+Then The user should be redirected to the items page of that product........passed
+When The user clicks on add to cart button which is next to item price......passed
+Then The product should be added to the cart and redirected to view cart page.passed
+And Add items to cart again.................................................passed
+And set quantity of item and click updateCart...............................passed
+Then Click on Check out process button......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
